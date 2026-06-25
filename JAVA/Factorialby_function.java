@@ -1,6 +1,11 @@
 import java.util.*;
 public class Factorialby_function {
   public static void printfactorial(int n){
+    // if number is neagtive 
+    if (n <0 ){
+      System.out.print("invaild number");
+      return;
+    }
     int factorial =1;
     for(int i=n;i>=1;i--){
     factorial = factorial*i;
